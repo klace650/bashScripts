@@ -1,0 +1,4 @@
+#! /bin/bash
+#this is just a test to see if my github is linked to my bin
+
+echo "this is the only command I know right now"
