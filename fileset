@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# FileSet Maker 2020 Sept 24 
+
+# Automatically creates series of files based off user parameters.
+
+
+
+# Asks what you'd like to name your fileset
+echo "Name of fileset: "
+read -r NAME
+
+# Asks how many of those types you want.
+echo  "How many total of those? (starts at 1) "
+read -r REPEAT
+
+# Asks what suffix/file type you want.
+echo "What type? (inlcude/type the dot)"
+read -r TYPE
+
+#Counter starts at 1
+for ((i = 1; i <=$REPEAT;i++)); do
+ touch ${NAME}${i}${TYPE}
+done
+
+#     kwk
