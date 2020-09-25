@@ -1,0 +1,6 @@
+#!/bin/bash
+
+xdg-open https://zoom.us/j/99229279457?pwd=ZVNLcjhMWDhadVJvaXp3VHZOS1dHQT09#success 
+xdg-open https://canvas.instructure.com/calendar#view_name=month&view_start=2020-09-25
+xdg-open https://github.com/codefellows/seattle-301n19
+

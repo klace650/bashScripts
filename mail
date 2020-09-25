@@ -1,2 +1,4 @@
 #! /bin/bash
 
+xdg-open https://google.com
+xdg-open https://canvas.instructure.com/calendar#view_name=month&view_start=2020-09-24
