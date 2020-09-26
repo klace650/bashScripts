@@ -4,8 +4,6 @@
 
 # Automatically creates series of files based off user parameters.
 
-
-
 # Asks what you'd like to name your fileset
 echo "Name of fileset: "
 read -r NAME
